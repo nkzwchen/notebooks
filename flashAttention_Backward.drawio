@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-17T06:26:14.394Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="tANBBxsghq6HAaw4wU9v" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-17T06:26:45.915Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="avvBMP6gxEfqjTnqcPaF" version="21.6.2" type="github">
   <diagram name="第 1 页" id="PJef4nOZp_Pi-idaibnx">
     <mxGraphModel dx="1242" dy="1996" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -130,7 +130,7 @@
         <mxCell id="UhCvBVR4pF60mXPPfr7d-132" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="UhCvBVR4pF60mXPPfr7d-133" target="UhCvBVR4pF60mXPPfr7d-136" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UhCvBVR4pF60mXPPfr7d-133" value="S = Q * K&lt;br&gt;(scale_q * scale_k)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="UhCvBVR4pF60mXPPfr7d-133" value="S = Q * K&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="220" y="475" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UhCvBVR4pF60mXPPfr7d-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="UhCvBVR4pF60mXPPfr7d-136" target="UhCvBVR4pF60mXPPfr7d-148" edge="1">
@@ -175,7 +175,7 @@
         <mxCell id="UhCvBVR4pF60mXPPfr7d-147" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="UhCvBVR4pF60mXPPfr7d-148" target="UhCvBVR4pF60mXPPfr7d-165" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UhCvBVR4pF60mXPPfr7d-148" value="&lt;font color=&quot;#ff2600&quot;&gt;dS &amp;nbsp;= &amp;nbsp;P . (dP - D)&lt;br&gt;(scale_p * scale_g * scale_v)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="UhCvBVR4pF60mXPPfr7d-148" value="&lt;font color=&quot;#ff2600&quot;&gt;dS &amp;nbsp;= &amp;nbsp;P . (dP - D)&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="300" y="635" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UhCvBVR4pF60mXPPfr7d-149" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="UhCvBVR4pF60mXPPfr7d-150" target="UhCvBVR4pF60mXPPfr7d-156" edge="1">
@@ -201,12 +201,6 @@
         </mxCell>
         <mxCell id="UhCvBVR4pF60mXPPfr7d-156" value="dQ" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="795" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="UhCvBVR4pF60mXPPfr7d-157" value="unscale" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="260" y="763" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="UhCvBVR4pF60mXPPfr7d-158" value="unscale q, k" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="290" y="520" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UhCvBVR4pF60mXPPfr7d-159" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;fp16 global mem&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="460" y="355" width="80" height="80" as="geometry" />
