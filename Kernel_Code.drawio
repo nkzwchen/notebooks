@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-23T10:00:00.970Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="sTNLTt_gj0MBodQGxZCD" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-23T13:04:16.586Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="y-frvZb-1OAoWF8k4o5w" version="23.1.6" type="github">
   <diagram name="第 1 页" id="K-mWzO9lz2f0aNnxn6c4">
     <mxGraphModel dx="2598" dy="1240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -58,35 +58,86 @@
         <mxCell id="HwkrnpUNMTJZ5SgdM_mp-19" value="SUB FFT NUM PER BLOCK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="480" y="200" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="22fLctp1MBqsBui4SRwQ-1" value="&lt;b&gt;Input Tensor&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="22fLctp1MBqsBui4SRwQ-1" value="&lt;b&gt;Input&amp;nbsp;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="1" vertex="1">
           <mxGeometry x="80" y="1950" width="320" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="22fLctp1MBqsBui4SRwQ-2" value="Output Tensor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="22fLctp1MBqsBui4SRwQ-2" value="Output Tensor" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="1550" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="22fLctp1MBqsBui4SRwQ-3" value="Input Tensor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="22fLctp1MBqsBui4SRwQ-3" value="Input Tensor" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="1630" width="240" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="22fLctp1MBqsBui4SRwQ-4" value="$$N_{i_1}$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="22fLctp1MBqsBui4SRwQ-4" value="$$N_{i_1}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="1" vertex="1">
           <mxGeometry x="80" y="1970" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="22fLctp1MBqsBui4SRwQ-5" value="$$N_{i_2}$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="22fLctp1MBqsBui4SRwQ-5" value="$$N_{i_2}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="1" vertex="1">
           <mxGeometry x="120" y="1970" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="22fLctp1MBqsBui4SRwQ-6" value="$$\cdots$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="22fLctp1MBqsBui4SRwQ-6" value="$$\cdots$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="1" vertex="1">
           <mxGeometry x="160" y="1970" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="22fLctp1MBqsBui4SRwQ-7" value="$$N_{i_m}$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="22fLctp1MBqsBui4SRwQ-7" value="$$N_{i_m}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="1" vertex="1">
           <mxGeometry x="360" y="1970" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="22fLctp1MBqsBui4SRwQ-8" value="$$\cdots$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="22fLctp1MBqsBui4SRwQ-8" value="$$\cdots$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="1" vertex="1">
           <mxGeometry x="280" y="1970" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="22fLctp1MBqsBui4SRwQ-9" value="$$N_{i_d}$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="22fLctp1MBqsBui4SRwQ-9" value="$$N_{i_d}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" parent="1" vertex="1">
           <mxGeometry x="240" y="1970" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="22fLctp1MBqsBui4SRwQ-11" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" vertex="1" parent="1">
+        <mxCell id="22fLctp1MBqsBui4SRwQ-11" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fillColor=#FFE6CC;" parent="1" vertex="1">
           <mxGeometry x="250" y="2010" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="axMmWZ9VxYA4Twj6XmbI-1" value="$$(n_{i_1}, \cdots, 0: N_{i_d}, \cdots, n_{i_m})$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2040" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="axMmWZ9VxYA4Twj6XmbI-2" value="$$DFT_{N_{i_d}}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2040" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="axMmWZ9VxYA4Twj6XmbI-3" value="&lt;b&gt;Input Tensor&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2120" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axMmWZ9VxYA4Twj6XmbI-4" value="$$N_{i_1}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2140" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="axMmWZ9VxYA4Twj6XmbI-5" value="$$N_{i_2}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2140" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="axMmWZ9VxYA4Twj6XmbI-6" value="$$\cdots$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="160" y="2140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="axMmWZ9VxYA4Twj6XmbI-7" value="$$N_{i_m}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2140" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="axMmWZ9VxYA4Twj6XmbI-8" value="$$\cdots$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="axMmWZ9VxYA4Twj6XmbI-9" value="$$N_{i_d}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="240" y="2140" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="axMmWZ9VxYA4Twj6XmbI-17" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="250" y="2180" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="axMmWZ9VxYA4Twj6XmbI-20" value="$$(n_{i_1}, \cdots, n_{i_d}, \cdots, n_{i_m})$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2200" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="axMmWZ9VxYA4Twj6XmbI-21" value="$$W^{n_{i_d}.\prod^K_{k =0}n_{t_k}}_{N_{i_d}.\prod^K_{k =0}N_{t_k}}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2200" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="axMmWZ9VxYA4Twj6XmbI-22" value="&lt;b&gt;Output Tensor&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2300" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axMmWZ9VxYA4Twj6XmbI-23" value="$$N_{j_1}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2320" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="axMmWZ9VxYA4Twj6XmbI-24" value="$$N_{j_2}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2320" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="axMmWZ9VxYA4Twj6XmbI-25" value="$$\cdots$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="160" y="2320" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="axMmWZ9VxYA4Twj6XmbI-26" value="$$N_{j_m}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2320" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
