@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-26T02:53:24.182Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="hk1orh1tnM6qlJj5e4F-" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-26T02:56:59.274Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="T80PlFwqyBtmMEsUr6YV" version="23.1.6" type="github">
   <diagram name="第 1 页" id="K-mWzO9lz2f0aNnxn6c4">
     <mxGraphModel dx="2081" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -271,7 +271,7 @@
         <mxCell id="uWELUKOHYKi7P_99Erwt-46" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Output Axes&lt;/b&gt; : `\{j_1, \cdots, j_m\}`&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="147.5" y="4990" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uWELUKOHYKi7P_99Erwt-47" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Output Shape&lt;/b&gt;: `(N_{j_1}, \cdots, N_{j_m})`&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="1" vertex="1">
+        <mxCell id="uWELUKOHYKi7P_99Erwt-47" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Output Shape&amp;nbsp;&lt;/b&gt;: `(N_{j_1}, \cdots, N_{j_m})`&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="1" vertex="1">
           <mxGeometry x="142.5" y="5030" width="280" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uWELUKOHYKi7P_99Erwt-50" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;fillColor=#FFE6CC;" parent="1" target="uWELUKOHYKi7P_99Erwt-38" edge="1">
