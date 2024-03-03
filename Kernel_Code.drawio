@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-03T10:32:45.968Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="26cxPQgT6XXrDLZy-mdA" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-03T10:33:13.295Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="eqAkU6HvR62E9FiJ7VzP" version="24.0.1" type="github">
   <diagram name="第 1 页" id="K-mWzO9lz2f0aNnxn6c4">
     <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -1400,8 +1400,8 @@
         <mxCell id="YGdoIrQEo9aboTWF3Xk9-150" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="1873.5" y="10920" width="20" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="YGdoIrQEo9aboTWF3Xk9-151" value="`(i, j)` 点乘旋转因子 `W_{N_0N_1}^{ij}`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1772.5" y="11290" width="230" height="30" as="geometry" />
+        <mxCell id="YGdoIrQEo9aboTWF3Xk9-151" value="`N_0` 次 `N_1` 点 DFT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1817.5" y="11290" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YGdoIrQEo9aboTWF3Xk9-152" value="`N_1`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1859" y="10970" width="50" height="30" as="geometry" />
