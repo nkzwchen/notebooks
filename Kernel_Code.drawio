@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-05T11:47:10.403Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="O2heMRuFIvZchYDhZPqW" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-05T11:49:09.246Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="SxMuEScFVLBc3Xmq-Z8o" version="24.0.1" type="github">
   <diagram name="第 1 页" id="K-mWzO9lz2f0aNnxn6c4">
     <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -316,7 +316,7 @@
         <mxCell id="057syfDnflp0r7ja1sME-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="057syfDnflp0r7ja1sME-9" target="057syfDnflp0r7ja1sME-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="057syfDnflp0r7ja1sME-9" value="&lt;b&gt;LocalFFT&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;b&gt;I / O Axes:&lt;/b&gt; `Input\ Axes_r \rightarrow&lt;br&gt;Output\ Axes_r`&lt;br&gt;&lt;br&gt;&lt;b&gt;ComputeDim&lt;/b&gt;: `d_r`&lt;br&gt;&lt;br&gt;&lt;b&gt;Twidle Dims:&amp;nbsp;&lt;/b&gt;`tw_r`" style="whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="057syfDnflp0r7ja1sME-9" value="&lt;b&gt;Layout-Flexible Pass FFT&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;b&gt;I / O Axes:&lt;/b&gt; `\mathrm{Input\ Axes_r \rightarrow&lt;br&gt;Output\ Axes_r}`&lt;br&gt;&lt;br&gt;&lt;b&gt;ComputeDim&lt;/b&gt;: `d_r`&lt;br&gt;&lt;br&gt;&lt;b&gt;Twidle Dims:&amp;nbsp;&lt;/b&gt;`tw_r`" style="whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="305.5" y="5640" width="440" height="150" as="geometry" />
         </mxCell>
         <mxCell id="057syfDnflp0r7ja1sME-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="057syfDnflp0r7ja1sME-39" target="057syfDnflp0r7ja1sME-9" edge="1">
@@ -325,8 +325,8 @@
         <mxCell id="057syfDnflp0r7ja1sME-39" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;$$InputAxes_r == &lt;br&gt;PrevAxes$$&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#E6E6E6;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="425.5" y="5440" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="057syfDnflp0r7ja1sME-41" value="&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;Transpose&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&amp;nbsp;PrevAxes&lt;br&gt;&lt;/b&gt;&amp;nbsp;`\rightarrow` &lt;b&gt;InputAxe&lt;/b&gt;`\mathbf{&lt;span style=&quot;background-color: initial;&quot;&gt;s_r}`&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="825.5" y="5440" width="220" height="120" as="geometry" />
+        <mxCell id="057syfDnflp0r7ja1sME-41" value="&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;Transpose&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&amp;nbsp;PrevAxes&lt;/b&gt;`\rightarrow` &lt;b&gt;InputAxe&lt;/b&gt;`\mathbf{s_r}`" style="whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="808.25" y="5440" width="254.5" height="120" as="geometry" />
         </mxCell>
         <mxCell id="057syfDnflp0r7ja1sME-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="057syfDnflp0r7ja1sME-39" target="057syfDnflp0r7ja1sME-41" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
