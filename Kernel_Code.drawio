@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-11T08:50:48.825Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="FdInEKznNtbHOP8KTXFM" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-11T08:52:06.940Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="YHuC3bk-urJAGVFRrnkA" version="24.0.2" type="github">
   <diagram name="第 1 页" id="K-mWzO9lz2f0aNnxn6c4">
     <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -2026,13 +2026,31 @@
           <mxGeometry x="806.25" y="14860.78" width="176" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ICqAArfMapiNBXm44otZ-36" value="&lt;b&gt;Write To Mem&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="804.75" y="15060" width="176" height="40" as="geometry" />
+          <mxGeometry x="803.75" y="15060" width="176" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ICqAArfMapiNBXm44otZ-37" value="`DFT_{n_r}`" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="804.75" y="14925" width="176" height="40" as="geometry" />
+          <mxGeometry x="805.75" y="14925" width="176" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ICqAArfMapiNBXm44otZ-39" value="`DFT_{n_r}`" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="806.25" y="14990" width="176" height="40" as="geometry" />
+        <mxCell id="ICqAArfMapiNBXm44otZ-39" value="&lt;b&gt;Twiddle Factor&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="804.25" y="14990" width="176" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ICqAArfMapiNBXm44otZ-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ICqAArfMapiNBXm44otZ-35" target="ICqAArfMapiNBXm44otZ-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="14990" as="sourcePoint" />
+            <mxPoint x="1070" y="14940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ICqAArfMapiNBXm44otZ-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ICqAArfMapiNBXm44otZ-37" target="ICqAArfMapiNBXm44otZ-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="14990" as="sourcePoint" />
+            <mxPoint x="1070" y="14940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ICqAArfMapiNBXm44otZ-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ICqAArfMapiNBXm44otZ-39" target="ICqAArfMapiNBXm44otZ-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="14990" as="sourcePoint" />
+            <mxPoint x="1070" y="14940" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
