@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-31T11:13:57.933Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="lyi_UKvmf1VcZ9-cOe0B" version="24.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-31T13:25:57.340Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="nRWOOTHTh4Hzd-oOifyi" version="24.0.6" type="github">
   <diagram name="第 1 页" id="K-mWzO9lz2f0aNnxn6c4">
     <mxGraphModel dx="1506" dy="847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -2473,13 +2473,13 @@
         <mxCell id="5PO2IVxlrNBF1UB4ku2v-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5PO2IVxlrNBF1UB4ku2v-2" target="5PO2IVxlrNBF1UB4ku2v-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5PO2IVxlrNBF1UB4ku2v-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Traverse Implement Params&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="5PO2IVxlrNBF1UB4ku2v-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Traverse Implement Params&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="268.75" y="21060" width="239" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5PO2IVxlrNBF1UB4ku2v-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5PO2IVxlrNBF1UB4ku2v-3" target="5PO2IVxlrNBF1UB4ku2v-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5PO2IVxlrNBF1UB4ku2v-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Compare Params Performance&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="5PO2IVxlrNBF1UB4ku2v-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Compare Params Performance&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="267.75" y="21210" width="241" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5PO2IVxlrNBF1UB4ku2v-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5PO2IVxlrNBF1UB4ku2v-5" target="5PO2IVxlrNBF1UB4ku2v-7">
@@ -2497,7 +2497,7 @@
         <mxCell id="5PO2IVxlrNBF1UB4ku2v-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5PO2IVxlrNBF1UB4ku2v-7" target="5PO2IVxlrNBF1UB4ku2v-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5PO2IVxlrNBF1UB4ku2v-7" value="&lt;b&gt;Global Bandwidth&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;rounded=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="5PO2IVxlrNBF1UB4ku2v-7" value="&lt;b&gt;Global Memory&lt;/b&gt;&lt;div&gt;&lt;b&gt;Bandwidth&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;rounded=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="650" y="21350" width="148.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5PO2IVxlrNBF1UB4ku2v-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5PO2IVxlrNBF1UB4ku2v-15" target="5PO2IVxlrNBF1UB4ku2v-16">
@@ -2506,7 +2506,7 @@
         <mxCell id="5PO2IVxlrNBF1UB4ku2v-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5PO2IVxlrNBF1UB4ku2v-15" target="5PO2IVxlrNBF1UB4ku2v-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5PO2IVxlrNBF1UB4ku2v-15" value="&lt;b&gt;OverLap&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;rounded=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="5PO2IVxlrNBF1UB4ku2v-15" value="&lt;b&gt;Parallelism&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;rounded=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="650.25" y="21480" width="148.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5PO2IVxlrNBF1UB4ku2v-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5PO2IVxlrNBF1UB4ku2v-16" target="5PO2IVxlrNBF1UB4ku2v-30">
@@ -2544,14 +2544,14 @@
         <mxCell id="5PO2IVxlrNBF1UB4ku2v-27" value="&lt;b&gt;Max Shared Memory&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Max Register Number Per Block&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Max Thread Per Block&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#e1d5e7;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="828.5" y="21205" width="210" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="5PO2IVxlrNBF1UB4ku2v-28" value="&lt;b&gt;L1 Cache Model&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#e1d5e7;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="878.5" y="21365" width="110" height="30" as="geometry" />
+        <mxCell id="5PO2IVxlrNBF1UB4ku2v-28" value="&lt;b&gt;Pre Test Bandwidth&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#e1d5e7;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="868.5" y="21365" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5PO2IVxlrNBF1UB4ku2v-29" value="&lt;b&gt;Thread Per Block&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Bank Conflict&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#e1d5e7;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="873.5" y="21480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5PO2IVxlrNBF1UB4ku2v-30" value="&lt;b&gt;Thread Per Block&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#e1d5e7;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="874.13" y="21625" width="120" height="30" as="geometry" />
+        <mxCell id="5PO2IVxlrNBF1UB4ku2v-30" value="&lt;b&gt;Local Memory&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;FMA Ops&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#e1d5e7;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="884.13" y="21610" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5PO2IVxlrNBF1UB4ku2v-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="5PO2IVxlrNBF1UB4ku2v-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
