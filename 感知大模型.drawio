@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="_fU1wrA3RTSnA3eZyXQM">
-    <mxGraphModel dx="4249" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3966" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,14 +31,14 @@
         <mxCell id="FzNyFnwnbm_Fb1RrGGc2-12" value="mask" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1325" y="241.99999999999997" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-14" value="&lt;div&gt;batch&amp;nbsp; * 640 * 640&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-14" value="&lt;div&gt;batch&amp;nbsp; * class_in_image * 640 * 640&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-1100" y="200" width="210" height="42" as="geometry" />
         </mxCell>
         <mxCell id="FzNyFnwnbm_Fb1RrGGc2-15" value="batch * class_in_image" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-1100" y="283.78" width="220" height="42" as="geometry" />
         </mxCell>
         <mxCell id="FzNyFnwnbm_Fb1RrGGc2-16" value="batch * class_in_image" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-1260" y="410" width="220" height="42" as="geometry" />
+          <mxGeometry x="-1260" y="390" width="220" height="42" as="geometry" />
         </mxCell>
         <mxCell id="FzNyFnwnbm_Fb1RrGGc2-18" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="100" relative="1" as="geometry">
@@ -50,6 +50,9 @@
               <mxPoint x="-1420" y="304" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-21" value="cost matrix" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1190" y="432" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
