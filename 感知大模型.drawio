@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="_fU1wrA3RTSnA3eZyXQM">
-    <mxGraphModel dx="3996" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4558" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-2" value="原始图片" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1990" y="158" width="70" height="30" as="geometry" />
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-2" value="&lt;b&gt;原始图片&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1990" y="170" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FzNyFnwnbm_Fb1RrGGc2-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FzNyFnwnbm_Fb1RrGGc2-3" target="FzNyFnwnbm_Fb1RrGGc2-4">
           <mxGeometry relative="1" as="geometry" />
@@ -16,28 +16,28 @@
         <mxCell id="FzNyFnwnbm_Fb1RrGGc2-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FzNyFnwnbm_Fb1RrGGc2-4" target="FzNyFnwnbm_Fb1RrGGc2-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-4" value="&lt;b&gt;Resize((640, 640),interp=Image.NEARST)&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ColorAug&lt;br&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;RandomFilp()&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-4" value="&lt;b&gt;Resize((640, 640),interp=Image.NEARST)&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ColorAug&lt;br&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;RandomFilp()&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-1760" y="217.89" width="280" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-6" value="&lt;div&gt;&lt;b&gt;batch * num_queries * 160 * 160&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-6" value="&lt;div&gt;&lt;b&gt;batch * num_queries * 160 * 160&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=none;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-1360.5" y="200" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-10" value="&lt;div&gt;&lt;b&gt;batch * num_queries * 38&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-10" value="&lt;div&gt;&lt;b&gt;batch * num_queries * 38&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=none;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-1360" y="283.78" width="120" height="42" as="geometry" />
         </mxCell>
         <mxCell id="FzNyFnwnbm_Fb1RrGGc2-11" value="&lt;b&gt;cls&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1330" y="325.78" width="40" height="30" as="geometry" />
+          <mxGeometry x="-1325" y="325.78" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FzNyFnwnbm_Fb1RrGGc2-12" value="&lt;b&gt;mask&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1330" y="160" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-14" value="&lt;div&gt;&lt;b&gt;batch&amp;nbsp; * class_in_image * 640 * 640&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-14" value="&lt;div&gt;&lt;b&gt;batch&amp;nbsp; * class_in_image * 640 * 640&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=none;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-1100" y="200" width="210" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-15" value="&lt;b&gt;batch * class_in_image&lt;/b&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-15" value="&lt;b&gt;batch * class_in_image&lt;/b&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=none;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-1100" y="283.78" width="220" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-16" value="&lt;b&gt;batch * num_queries * class_in_image&lt;/b&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-16" value="&lt;b&gt;batch * num_queries * class_in_image&lt;/b&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-1270" y="390" width="220" height="42" as="geometry" />
         </mxCell>
         <mxCell id="FzNyFnwnbm_Fb1RrGGc2-18" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
@@ -72,22 +72,22 @@
         <mxCell id="FzNyFnwnbm_Fb1RrGGc2-33" value="&lt;b&gt;mask label&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1042" y="170" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-34" value="&lt;b&gt;batch * class_in_image * 38&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-34" value="&lt;b&gt;batch * class_in_image * 38&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-1400" y="490" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-35" value="&lt;b&gt;batch * class_in_image * num_points&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-35" value="&lt;b&gt;batch * class_in_image * num_points&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-1105" y="490" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FzNyFnwnbm_Fb1RrGGc2-36" value="&lt;b&gt;匈牙利匹配，&lt;/b&gt;&lt;div&gt;&lt;b&gt;选出 class In image 对最佳匹配&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1055" y="392" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-37" value="&lt;b&gt;ce loss&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-37" value="&lt;b&gt;ce loss&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-1400" y="555" width="150" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-38" value="&lt;b&gt;binary ce loss&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-38" value="&lt;b&gt;binary ce loss&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-1160" y="550" width="150" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-39" value="&lt;b&gt;dice loss&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-39" value="&lt;b&gt;dice loss&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-977" y="550" width="150" height="35" as="geometry" />
         </mxCell>
         <mxCell id="FzNyFnwnbm_Fb1RrGGc2-40" value="&lt;b&gt;weight : 2.0&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -101,6 +101,15 @@
         </mxCell>
         <mxCell id="FzNyFnwnbm_Fb1RrGGc2-45" value="&lt;b&gt;损失函数&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1500" y="530" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-46" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;1. 固定 resize 大小，删除裁剪步骤&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1725" y="325.78" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-47" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;2. 将 num points 点个数由 12544 增加至 25600&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1280" y="252.89" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-48" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;3. 尝试过多种 loss 函数，目前还是原始配置最优&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1290" y="628" width="280" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
