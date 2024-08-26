@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="_fU1wrA3RTSnA3eZyXQM">
-    <mxGraphModel dx="4096" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3696" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,7 +28,7 @@
         <mxCell id="FzNyFnwnbm_Fb1RrGGc2-11" value="&lt;b&gt;cls&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1330" y="325.78" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-12" value="mask" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-12" value="&lt;b&gt;mask&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1330" y="160" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FzNyFnwnbm_Fb1RrGGc2-14" value="&lt;div&gt;&lt;b&gt;batch&amp;nbsp; * class_in_image * 640 * 640&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;" vertex="1" parent="1">
@@ -37,7 +37,7 @@
         <mxCell id="FzNyFnwnbm_Fb1RrGGc2-15" value="&lt;b&gt;batch * class_in_image&lt;/b&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-1100" y="283.78" width="220" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-16" value="batch * num_queries * class_in_image" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-16" value="&lt;b&gt;batch * num_queries * class_in_image&lt;/b&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-1270" y="390" width="220" height="42" as="geometry" />
         </mxCell>
         <mxCell id="FzNyFnwnbm_Fb1RrGGc2-18" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
@@ -51,13 +51,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-21" value="cost matrix" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1200" y="432" width="80" height="30" as="geometry" />
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-21" value="&lt;b&gt;cost matrix&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1205" y="432" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FzNyFnwnbm_Fb1RrGGc2-26" value="&lt;b&gt;class label&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1035" y="325.78" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-31" value="采样 num points 个点&lt;div&gt;(目前取值为 25600)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-31" value="&lt;b&gt;采样 num points 个点&lt;/b&gt;&lt;div&gt;&lt;b&gt;(目前取值为 25600)&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1240" y="300" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FzNyFnwnbm_Fb1RrGGc2-32" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=12.222222222222221;endSize=7.777777777777778;" edge="1" parent="1">
@@ -69,40 +69,40 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-33" value="mask label" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-33" value="&lt;b&gt;mask label&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1042" y="170" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-34" value="batch * class_in_image * 38" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-34" value="&lt;b&gt;batch * class_in_image * 38&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1400" y="490" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-35" value="batch * class_in_image * num_points" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-35" value="&lt;b&gt;batch * class_in_image * num_points&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1105" y="490" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-36" value="匈牙利匹配，&lt;div&gt;选出 class In image 对最佳匹配&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1050" y="392" width="190" height="40" as="geometry" />
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-36" value="&lt;b&gt;匈牙利匹配，&lt;/b&gt;&lt;div&gt;&lt;b&gt;选出 class In image 对最佳匹配&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1055" y="392" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-37" value="ce loss" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-37" value="&lt;b&gt;ce loss&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1400" y="555" width="150" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-38" value="binary ce loss" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-38" value="&lt;b&gt;binary ce loss&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1160" y="550" width="150" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-39" value="dice loss" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-39" value="&lt;b&gt;dice loss&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-977" y="550" width="150" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-40" value="weight : 2.0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1365" y="598" width="80" height="30" as="geometry" />
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-40" value="&lt;b&gt;weight : 2.0&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1370" y="598" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-41" value="weight : 5.0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1125" y="590" width="80" height="30" as="geometry" />
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-41" value="&lt;b&gt;weight : 5.0&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1130" y="590" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-42" value="weight : 5.0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-942" y="585" width="80" height="30" as="geometry" />
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-42" value="&lt;b&gt;weight : 5.0&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-947" y="585" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FzNyFnwnbm_Fb1RrGGc2-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.679;entryY=0.91;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FzNyFnwnbm_Fb1RrGGc2-10" target="FzNyFnwnbm_Fb1RrGGc2-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-45" value="损失函数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="FzNyFnwnbm_Fb1RrGGc2-45" value="&lt;b&gt;损失函数&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1500" y="530" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
